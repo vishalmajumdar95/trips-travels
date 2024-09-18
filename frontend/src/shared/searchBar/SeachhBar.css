@@ -1,0 +1,75 @@
+.search-bar {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  width: max-content;
+  margin-top: 50px;
+}
+
+.form-group span {
+  font-size: 1.8rem;
+  color: #ee6e6e;
+}
+
+.form-group input {
+  border: none;
+  font-size: 0.9rem;
+  color: BLACK;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group h6 {
+  margin-bottom: 0;
+}
+
+.form-group-fast {
+  border-right: 2px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+/* Container for the search bar */
+.search-bar {
+  padding: 0.5rem 1rem; /* Adds padding around the content */
+  border-radius: 50px; /* Rounds the edges of the search bar */
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; /* Adds a soft shadow for a 3D effect */
+  width: max-content; /* Adjusts the width to fit the content */
+  margin-top: 50px; /* Adds space above the search bar */
+}
+
+/* Styling for the icon inside each form group */
+.form-group span {
+  font-size: 1.8rem; /* Increases the size of the icon */
+  color: #ee6e6e; /* Sets the icon color to a light red */
+}
+
+/* Input field styling inside each form group */
+.form-group input {
+  border: none; /* Removes the default border from input fields */
+  font-size: 0.9rem; /* Sets the font size for the text inside inputs */
+  color: BLACK; /* Text color set to black */
+}
+
+/* Styling for the input field when it is focused */
+.form-group input:focus {
+  outline: none; /* Removes the default browser outline on focus */
+}
+
+/* Styling for the label (h6) inside each form group */
+.form-group h6 {
+  margin-bottom: 0; /* Removes the default margin below the heading */
+}
+
+/* Styling for form groups to have a border on the right */
+.form-group-fast {
+  border-right: 2px solid #ddd; /* Adds a light gray right border */
+}
